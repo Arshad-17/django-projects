@@ -1,4 +1,3 @@
-from airflow.listeners.spec.importerrors import on_new_dag_import_error
 from django.db import models
 
 # Create your models here.

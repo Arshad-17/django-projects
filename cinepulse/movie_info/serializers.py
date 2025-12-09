@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Actor, Director, Movie
+from .models import Director, Movie
 
 class MovieSerializer(serializers.ModelSerializer):
     class Meta:
@@ -9,4 +9,3 @@ class MovieSerializer(serializers.ModelSerializer):
 class DirectorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Director
-        movie_count =
